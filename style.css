@@ -1,0 +1,108 @@
+a:link {
+  text-decoration: none;
+  color: DimGray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+  position: relative;
+}
+
+li {
+  display: inline;
+  margin: 8px 10px 0 16px;
+}
+
+.sign-in {
+  background-color: #107FE0;
+  color: white;
+  width: 4%;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin: 0 20px 0 0;
+}
+
+.sign-in:hover {
+  box-shadow: 0 1px 1px 1px SlateGray;
+}
+
+.search-box {
+  height: 28px;
+  width: 30%;
+  margin: auto;
+}
+
+/* Self-criticism: The microphone lines up right in Chrome and Firefox, but in IE it is woefully out of place. */
+
+.mic {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  margin: -30px 0 0 28%;
+}
+
+.search-bar {
+  box-shadow: 1px 1px 1px 1px SlateGray;
+  width: 100%;
+  height: 28px;
+}
+
+p {
+  opacity: 0;
+}
+
+.logo {
+  width: 272px;
+  position: relative;
+  left: 50%;
+  margin: 8% 0 20px -136px;
+}
+
+.google-search {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+  width: 7%;
+  height: 38px;
+  margin: 2% 0.25% 0 42%;
+  border: 0;
+  padding: 0;
+  color: DimGray;
+  background-color: #F0F0F0;
+}
+
+.google-search:hover {
+  border: solid 1px gray;
+}
+
+.feeling-lucky {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+  width: 8.5%;
+  height: 38px;
+  margin: 2% 0 0 0.25%;
+  border: 0;
+  padding: 0;
+  color: DimGray;
+  background-color: #F0F0F0;
+}
+
+.feeling-lucky:hover {
+  border: solid 1px gray;
+}
+
+/* Self-criticism: The footer nav bar simply will not fill up the whole width of the page without messing up the spacing or giving me a scroll bar, hence my 97.5% width CSS "fix." */
+
+.bottom {
+  bottom: 0;
+  position: absolute;
+  background-color: #F0F0F0;
+  width: 97.52%;
+  height: 30px;
+  margin: 0 0 0 0;
+}
